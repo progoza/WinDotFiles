@@ -1,8 +1,9 @@
 if has("gui_running")
 	set guioptions-=T  "toolbar
+    set guioptions-=m  "menu
 	set background=dark
 	colorscheme dracula
-    set guifont=UbuntuMono_Nerd_Font_Mono:h10
+    set guifont=UbuntuMono_NFM:h11
 endif
 set tabstop=4 shiftwidth=4 expandtab
 set nu
